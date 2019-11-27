@@ -1,0 +1,176 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialRows": 30,
+    "initialCols": 120,
+    "alwaysShowTabs": true,
+    "showTerminalTitleInTitlebar": true,
+    "experimental_showTabsInTitlebar": true,
+    // "backgroundImage": "C:\\Users\\Kira Yoshikage\\Pictures\\wallhaven-36230.png",
+
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "background": "#002731",
+            "colorScheme": "Solarized Dark",
+            "historySize": 9001,
+            "snapOnInput": true,
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "bar",
+            "fontFace": "Consolas",
+            "fontSize": 12,
+            "acrylicOpacity": 0.5,
+            "useAcrylic": false,
+            "closeOnExit": true,
+            "padding": "0, 0, 0, 0",
+            "commandline": "powershell.exe",
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "colorScheme": "Campbell",
+            "historySize": 9001,
+            "snapOnInput": true,
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "bar",
+            "commandline": "cmd.exe",
+            "fontFace": "Consolas",
+            "fontSize": 12,
+            "acrylicOpacity": 0.75,
+            "useAcrylic": true,
+            "closeOnExit": true,
+            "padding": "0, 0, 0, 0",
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{12aed751-b62c-48f3-82be-459254be21de}",
+            "name": "MySQL Master",
+            "colorScheme": "Campbell",
+            "historySize": 3001,
+            "snapOnInput": true,
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "underscore",
+            "commandline": "mysql.exe -u micro3 -h 192.168.21.133 -P 3306 -D SYNtest -p",
+            "icon": "C:\\Users\\tyx4863\\Documents\\Icon\\mysql.ico",
+            "fontFace": "Consolas",
+            "fontSize": 12,
+            "acrylicOpacity": 0.75,
+            "useAcrylic": true,
+            "closeOnExit": true,
+            "padding": "0, 0, 0, 0",
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{5c806b0e-fdb6-4a5e-a1c5-abd086d0a0c6}",
+            "name": "MySQL Sleva",
+            "colorScheme": "Campbell",
+            "historySize": 3001,
+            "snapOnInput": true,
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "underscore",
+            "commandline": "mysql.exe -u micro3 -h 192.168.21.132 -P 3306 -D SYNtest -p",
+            "icon": "C:\\Users\\tyx4863\\Documents\\Icon\\mysql.ico",
+            "fontFace": "Consolas",
+            "fontSize": 12,
+            "acrylicOpacity": 0.75,
+            "useAcrylic": true,
+            "closeOnExit": true,
+            "padding": "0, 0, 0, 0",
+            "hidden": false
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "Campbell",
+            "foreground": "#A7B191", 
+            "background": "#0C0C0C",
+            "colors": [
+                "#0C0C0C",
+                "#C50F1F",
+                "#13A10E",
+                "#C19C00",
+                "#0037DA",
+                "#881798",
+                "#3A96DD",
+                "#CCCCCC",
+                "#767676",
+                "#E74856",
+                "#16C60C",
+                "#F9F1A5",
+                "#3B78FF",
+                "#B4009E",
+                "#61D6D6",
+                "#F2F2F2"
+            ]
+        },
+        {
+            "name": "Solarized Dark",
+            "foreground": "#FDF6E3",
+            "background": "#073642",
+            "colors": [
+                "#073642",
+                "#D30102",
+                "#859900",
+                "#B58900",
+                "#268BD2",
+                "#D33682",
+                "#2AA198",
+                "#EEE8D5",
+                "#002B36",
+                "#CB4B16",
+                "#586E75",
+                "#657B83",
+                "#839496",
+                "#6C71C4",
+                "#93A1A1",
+                "#FDF6E3"
+            ]
+        },
+        {
+            "name": "Solarized Light",
+            "foreground": "#073642",
+            "background": "#FDF6E3",
+            "colors": [
+                "#073642",
+                "#D30102",
+                "#859900",
+                "#B58900",
+                "#268BD2",
+                "#D33682",
+                "#2AA198",
+                "#EEE8D5",
+                "#002B36",
+                "#CB4B16",
+                "#586E75",
+                "#657B83",
+                "#839496",
+                "#6C71C4",
+                "#93A1A1",
+                "#FDF6E3"
+            ]
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
